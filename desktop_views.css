@@ -1,0 +1,54 @@
+.title_bar{
+    padding-top:90px;
+}
+
+.title_bar h1{
+    padding:4px;
+    background-color:tomato;
+    color:white;
+    width:160px;
+    border-radius:10px;
+}
+
+
+
+.grids::after{
+    clear:both;
+    content: "";
+    display:table;
+}
+
+.grids{
+    padding-left:80px;
+}
+
+.flex_box{
+    float:left;
+    width:380px;
+    height:200px;
+    background-color:grey;
+    color:white;
+    border:2px solid black;
+    border-radius:5px;
+    margin:5px;
+    line-height:0;
+}
+
+.heads{
+    float:right;
+}
+
+.content{
+    padding:1px;
+    border-left:2px solid black;
+    border-bottom:2px solid black;
+    width:100px;
+}
+
+
+.text{
+    line-height:20px;
+    padding:4px;
+    padding-top:70px;
+    color:black;
+}
